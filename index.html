@@ -11,14 +11,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Johannas portfolio</title>
   </head>
+
   <body>
     <header>
       <div class="container">
         <div class="hero-content">
           <div class="intro">
             <h1>Portfolio: Johanna Luks Wærn</h1>
-            <h2>frontend developer</h2>
-            <h3>+ graphic designer</h3>
+            <div class="tagline">
+              frontend developer
+              <div>+ graphic designer</div>
+            </div>
           </div>
           <div class="profile">
             <div class="social-media">
@@ -40,7 +43,7 @@
             </div>
             <img
               class="profile-picture"
-              src="./images/johanna_2.jpg"
+              src="./images/johanna_3.jpg"
               alt="profile-picture-johanna"
             />
           </div>
@@ -48,74 +51,239 @@
       </div>
     </header>
 
-    <div class="pitch-section">
-      <div class="container">
-        <p>
-          Hello! I'm a frontend developer and graphic designer that likes to
-          create things, blablablal and so on, I don't know. But I have to write
-          more things so it doesn't look so weird and short. Do I maybe want to
-          write that I have a short brain?
-        </p>
+    <main>
+      <div class="pitch-section section">
+        <div class="container">
+          <p>
+            <span class="line">––––– </span>Hello! I'm a frontend developer and
+            graphic designer that likes to create things, blablablal and so on,
+            I don't know. But I have to write more things so it doesn't look so
+            weird and short. Do I maybe want to write that I have a short brain?
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="tech-section">
-      <div class="container">
-        <h4>TECH</h4>
-        <p>
-          HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
-          Node.js, Mongo DB, Web Accessibility, API:s, mob-programming,
-          pair-programming, Github.
-        </p>
+      <div class="tech-section section">
+        <div class="container">
+          <h2>Tech</h2>
+          <p>
+            HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux,
+            Node.js, Mongo DB, Web Accessibility, API:s, mob-programming,
+            pair-programming, Github.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="project-section">
-      <div class="container">
-        <h4>FEATURED PROJECTS</h4>
-        <div class="featured-projects">
-          <div class="project-1">
-            <img
-              id="featured-image"
-              src="./images/header_triangles.png"
-              alt="test"
-            />
-            <p id="bold">WEATHER APP</p>
-            <p>
-              Text about my weather app, how much text? Maybe one line more=
-            </p>
+      <div class="project-section section">
+        <div class="container">
+          <h2>Featured projects</h2>
+          <div class="featured">
+            <div class="project">
+              <a href="https://github.com/johannawaern">
+                <h4 class="weather-project-title">Weather app</h4>
+              </a>
+              <p>
+                <span class="subtitle">A brilliant project in JavaScript.</span>
+                Text about my weather app, how much text? One line more.
+                <a
+                  href="https://github.com/johannawaern"
+                  class="read-more"
+                  aria-hidden="true"
+                >
+                  &gt;&gt;
+                </a>
+              </p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/johannawaern">
+                <h4 class="news-project-title">Weather app</h4>
+              </a>
+              <p>
+                <span class="subtitle">A brilliant project in JavaScript.</span>
+                Text about my weather app, how much text? One line more.
+                <a
+                  href="https://github.com/johannawaern"
+                  class="read-more"
+                  aria-hidden="true"
+                >
+                  &gt;&gt;
+                </a>
+              </p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/johannawaern">
+                <h4 class="pizza-project-title">Weather app</h4>
+              </a>
+              <p>
+                <span class="subtitle">A brilliant project in JavaScript.</span>
+                Text about my weather app, how much text? One line more.
+                <a
+                  href="https://github.com/johannawaern"
+                  class="read-more"
+                  aria-hidden="true"
+                >
+                  &gt;&gt;
+                </a>
+              </p>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/johannawaern">
+                <h4 class="cluedo-project-title">Weather app</h4>
+              </a>
+              <p>
+                <span class="subtitle">A brilliant project in JavaScript.</span>
+                Text about my weather app, how much text? One line more.
+                <a
+                  href="https://github.com/johannawaern"
+                  class="read-more"
+                  aria-hidden="true"
+                >
+                  &gt;&gt;
+                </a>
+              </p>
+            </div>
           </div>
-          <div class="project-1">
-            <img id="featured-image" src="./images/balloon1.jpg" alt="test" />
-            <p id="bold">WEATHER APP</p>
-            <p>
-              Text about my weather app, how much text? Maybe one line more=
-            </p>
-          </div>
-          <div class="project-1">
-            <img
-              id="featured-image"
-              src="./images/header_triangles.png"
-              alt="test"
-            />
-            <p id="bold">WEATHER APP</p>
-            <p>
-              Text about my weather app, how much text? Maybe one line more=
-            </p>
-          </div>
-          <div class="project-1">
-            <img
-              id="featured-image"
-              src="./images/header_triangles.png"
-              alt="test"
-            />
-            <p id="bold">WEATHER APP</p>
-            <p>
-              Text about my weather app, how much text? Maybe one line more=
-            </p>
+
+          <h3>Other projects</h3>
+          <div class="other">
+            <div>
+              <h4 class="inline">Projectproject</h4>
+              <p class="inline">
+                Text about my weather app, written in JavaScript linksymbol to
+                site
+              </p>
+            </div>
+            <div>
+              <h4 class="inline">Another project</h4>
+              <p class="inline">
+                Text about my weather app, written in JavaScript. linksymbol to
+                site
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="reflection-section section">
+        <div class="container">
+          <h2>My thoughts about code</h2>
+          <div class="featured">
+            <div class="reflection">
+              <img
+                id="featured-image"
+                src="./images/header_triangles.png"
+                alt="test"
+              />
+              <h4>Blogpost 1</h4>
+              <p>
+                Text opm aösdf öadskvjn klsdkfj aösdkf slasdkfh kalsdfh jahdklv
+                sahjdklf hkdlfah sjadfh aslfd jfdsagjk fdsgjk adjfkdalöf jfkdal
+                dshfj dhfj ka dsgfj dhja fhdj hdfja fhdjk fhdjk fhjds dfhj fhjdk
+                hdfjs
+              </p>
+            </div>
+            <div class="reflection">
+              <img
+                id="featured-image"
+                src="./images/header_triangles.png"
+                alt="test"
+              />
+              <h4>Blogpost 2</h4>
+              <p>
+                Text opm aösdf öadskvjn klsdkfj aösdkf slasdkfh kalsdfh jahdklv
+                sahjdklf hkdlfah sjadfh aslfd jfdsagjk fdsgjk adjfkdalöf jfkdal
+                dshfj dhfj ka dsgfj dhja fhdj hdfja fhdjk fhdjk fhjds dfhj fhjdk
+                hdfjs
+              </p>
+            </div>
+          </div>
+          <h3>More thoughts</h3>
+          <div class="other">
+            <div>
+              <h4 class="inline">Thoughts</h4>
+              <p class="inline">
+                Text about my weather app, written in JavaScript linksymbol to
+                site
+              </p>
+            </div>
+            <div>
+              <h4 class="inline">Thoughts</h4>
+              <p class="inline">
+                Text about my weather app, written in JavaScript. linksymbol to
+                site
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-section section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skill-set">
+            <div class="code">
+              <h4>Code</h4>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+            <div class="toolbox">
+              <h4>Toolbox</h4>
+              <p>Indesign</p>
+              <p>Illustrator</p>
+              <p>VectorWorks</p>
+            </div>
+            <div class="more">
+              <h4>More</h4>
+              <p>Legobygge</p>
+              <p>Kritor</p>
+              <p>Projekledning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-section section">
+        <div class="container">
+          <h2>Fore more</h2>
+          <div class="for-more">
+            <div>
+              <a
+                href="https://www.linkedin.com/in/johanna-luks-waern/"
+                target="_blank"
+              >
+                <img src="images/linkedin_color.svg" alt="linkedin" />
+              </a>
+              <h4>linkedin</h4>
+            </div>
+            <div>
+              <a href="https://github.com/johannawaern" target="_blank">
+                <img src="images/github_color.svg" alt="github" />
+              </a>
+              <h4>Github</h4>
+            </div>
+            <div>
+              <a
+                href="https://stackoverflow.com/c/technigo/users/16/?tab=profile"
+                target="_blank"
+              >
+                <img src="images/stackoverflow_color.svg" alt="stackoverflow" />
+              </a>
+              <h4>stackoverflow</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h2>CONTACT</h2>
+      <p>Johanna Luks Wærn</p>
+      <p>070-975 70 63</p>
+      <p>johanna@misswaern.se</p>
+    </footer>
   </body>
 </html>

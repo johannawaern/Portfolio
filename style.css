@@ -10,24 +10,44 @@ h1 {
   margin-bottom: 0.3em;
 }
 
-h2 {
+.tagline {
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
+  font-weight: 700;
+}
+
+.tagline div {
+  font-size: 0.5em;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  display: inline-block;
+  background-color: #41817a;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
+  color: #41817a;
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2em;
-  display: inline;
-  background-color: #ea9191;
-  color: white;
-  padding: 0 10px;
-  line-height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-weight: 700;
+  color: #b1597f;
+  /* display: inline; */
+  text-transform: uppercase;
 }
 
 p {
@@ -38,16 +58,27 @@ p {
 }
 
 header {
-  background-image: url(./images/balloon1_30.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 450px;
+  background: linear-gradient(
+      to bottom,
+      rgba(65, 129, 122, 0.6) 0%,
+      rgba(65, 129, 122, 0.9) 100%
+    ),
+    url(./images/white_balloon.jpg) center / cover;
 }
+
+/* header {
+  background-image: url(./images/blue_ballon_2.jpg);
+  background-size: cover;
+  background-position: ;
+  height: 450px;
+} */
 
 .container {
   margin: 0 auto;
-  max-width: 55%;
+  max-width: 50em;
+  padding: 0 1em;
 }
+/* messa Jola och Ida*/
 
 .hero-content {
   display: flex;
@@ -63,6 +94,7 @@ header {
 .profile {
   color: #fff;
   max-width: 400px;
+  margin-bottom: -25px;
 }
 
 .social-media {
@@ -90,54 +122,165 @@ header {
   height: 250px;
 }
 
-.pitch-section {
+.line {
+  color: #b1597f;
+  font-weight: bolder;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.section:nth-child(odd) {
   background: #f4f4f4;
-  height: 250px;
-  display: flex;
-  align-items: center;
 }
 
-.tech-section {
-  background: #ffffff;
-  height: 250px;
-  display: flex;
-  align-items: center;
+.tech-section,
+.project-section,
+.reflection-section,
+.skill-section,
+.more-section {
   text-align: center;
 }
 
-.project-section {
-  background-color: #f4f4f4;
-  padding-top: 50px;
-  text-align: center;
-}
-
-.featured-projects {
+.featured {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: left;
-  margin-top: 30px;
 }
 
-.project-1 {
-  max-width: 45%;
+.featured a {
+  text-decoration: none;
+}
+
+.project,
+.reflection {
+  width: 48%;
+  margin-bottom: 4em;
+}
+
+.weather-project-title {
+  background-image: url(images/header_triangles.png);
+}
+
+.news-project-title {
+  background-image: url(images/balloon1.jpg);
+}
+
+.pizza-project-title {
+  background-image: url(images/blue_ballon.jpg);
+}
+
+.cluedo-project-title {
+  background-image: url(images/blue_ballons_2.jpg);
+}
+
+.weather-project-title,
+.news-project-title,
+.pizza-project-title,
+.cluedo-project-title {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 90px 0;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
 }
 
 #featured-image {
-  max-width: 100%;
+  width: 100%;
   height: 200px;
   object-fit: cover;
-  margin: 50px 0 15px;
+  margin-bottom: 15px;
 }
 
-.featured-projects p {
+.featured p,
+.other p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4em;
+  display: inline;
 }
 
-#bold {
-  font-weight: 700;
-  color: #ea9191;
+.subtitle,
+.read-more {
+  color: #b1597f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.other {
+  text-align: left;
+  margin-top: 30px;
+  line-height: 2em;
+}
+
+.inline {
+  display: inline;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.skill-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+.code,
+.toolbox,
+.more {
+  width: 33.3%;
+}
+
+.for-more {
+  display: flex;
+  justify-content: center;
+}
+
+.for-more div {
+  display: flex;
+  flex-direction: column;
+}
+
+.for-more img {
+  width: 40px;
+  color: #b1597f;
+}
+
+.for-more a {
+  text-decoration: none;
+  border: solid #b1597f 3px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  margin: 0 40px;
+}
+
+.for-more h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #41817a;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+footer h2 {
+  margin-bottom: 0.5em;
+}
+footer h5 {
+  color: #fff;
 }
