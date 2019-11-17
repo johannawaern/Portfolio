@@ -35,18 +35,15 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.7em;
   color: #41817a;
-  line-height: 60px;
+  margin-bottom: 1em;
   text-transform: uppercase;
 }
 
 h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  line-height: 1.4em;
+  font-size: 1.2em;
   font-weight: 700;
   color: #b1597f;
-  /* display: inline; */
   text-transform: uppercase;
 }
 
@@ -63,7 +60,7 @@ header {
       rgba(65, 129, 122, 0.6) 0%,
       rgba(65, 129, 122, 0.9) 100%
     ),
-    url(./images/white_balloon.jpg) center / cover;
+    url(./images/white_balloon_2.jpg) center / cover;
 }
 
 /* header {
@@ -75,10 +72,9 @@ header {
 
 .container {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 45em;
   padding: 0 1em;
 }
-/* messa Jola och Ida*/
 
 .hero-content {
   display: flex;
@@ -128,7 +124,7 @@ header {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 6em 0;
 }
 
 .section:nth-child(odd) {
@@ -161,7 +157,7 @@ header {
 }
 
 .weather-project-title {
-  background-image: url(images/header_triangles.png);
+  background-image: url(images/blue_ballons_1.jpg);
 }
 
 .news-project-title {
@@ -189,7 +185,7 @@ header {
   color: white;
 }
 
-#featured-image {
+.featured-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -197,11 +193,10 @@ header {
 }
 
 .featured p,
-.other p {
+.secondary p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 300;
-  line-height: 1.4em;
   display: inline;
 }
 
@@ -212,14 +207,37 @@ header {
   text-transform: uppercase;
 }
 
-.other {
+.tags {
+  margin-top: 5px;
+}
+
+.tags p {
+  background-color: #41817a;
+  color: white;
+  font-size: 0.8em;
+  padding: 3px 6px;
+}
+
+.secondary {
   text-align: left;
   margin-top: 30px;
-  line-height: 2em;
+}
+
+.secondary-items {
+  margin-bottom: 20px;
 }
 
 .inline {
   display: inline;
+}
+
+.text-snippet {
+  color: black;
+}
+
+.inline span {
+  color: #b1597f;
+  font-weight: bold;
 }
 
 .skill-set {
@@ -269,6 +287,7 @@ header {
 .for-more h4 {
   text-align: center;
   padding-top: 20px;
+  font-size: 1em;
 }
 
 footer {
@@ -282,5 +301,10 @@ footer h2 {
   margin-bottom: 0.5em;
 }
 footer h5 {
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
   color: #fff;
 }
