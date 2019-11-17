@@ -227,6 +227,10 @@ header {
   margin-bottom: 20px;
 }
 
+.secondary-items a {
+  text-decoration-color: #b1597f;
+}
+
 .inline {
   display: inline;
 }
