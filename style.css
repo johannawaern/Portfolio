@@ -229,6 +229,7 @@ header {
 
 .secondary-items a {
   text-decoration-color: #b1597f;
+  display: block;
 }
 
 .inline {
