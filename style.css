@@ -127,11 +127,6 @@ header {
   font-weight: 900;
 }
 
-.circle {
-  color: #b1597f;
-  radius: 1em;
-}
-
 .section {
   padding: 6em 0;
 }
@@ -165,26 +160,34 @@ header {
   margin-bottom: 4em;
 }
 
+.project-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.survey-project-title {
+  background-image: url(images/project_survey.png);
+}
+
 .weather-project-title {
-  background-image: url(images/blue_ballons_1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(images/project_weather.jpg);
 }
 
-.news-project-title {
-  background-image: url(images/balloon1.jpg);
+.happy-project-title {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(images/project_happy.jpg);
 }
 
-.pizza-project-title {
-  background-image: url(images/blue_ballon.jpg);
+.movie-project-title {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(images/project_movies.jpg);
 }
 
-.cluedo-project-title {
-  background-image: url(images/blue_ballons_2.jpg);
-}
-
+.survey-project-title,
 .weather-project-title,
-.news-project-title,
-.pizza-project-title,
-.cluedo-project-title {
+.happy-project-title,
+.movie-project-title {
   background-size: cover;
   background-position: center;
   width: 100%;
