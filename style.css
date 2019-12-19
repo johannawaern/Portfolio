@@ -166,7 +166,8 @@ header {
 }
 
 .survey-project-title {
-  background-image: url(images/project_survey.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(images/project_survey2.jpg);
 }
 
 .weather-project-title {
